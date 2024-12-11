@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="_RqF-Id2NEe6Dq-kiClzcew" name="COMPARTMENT" dataPackage="_RqF-It2NEe6Dq-kiClzcew" Server="Localhost 127.0.0.1" FilePath="C:/Users/MYRIAM/Desktop/fichier_PI/COMPARTMENT.xls" Encoding="UTF-8" UseHeader="true" HeaderValue="1" FirstLineCaption="true" SheetName="COMPARTMENT" firstColumn="1" thousandSeparator="','" decimalSeparator="'.'" selectAllSheets="true" sheetList="COMPARTMENT:w&#xA;">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+    <sheetColumns>C</sheetColumns>
+    <sheetColumns>D</sheetColumns>
+    <sheetColumns>E</sheetColumns>
+    <sheetColumns>F</sheetColumns>
+    <sheetColumns>G</sheetColumns>
+    <sheetColumns>H</sheetColumns>
+    <sheetColumns>I</sheetColumns>
+    <sheetColumns>J</sheetColumns>
+    <sheetColumns>K</sheetColumns>
+    <sheetColumns>L</sheetColumns>
+    <sheetColumns>M</sheetColumns>
+    <sheetColumns>N</sheetColumns>
+    <sheetColumns>O</sheetColumns>
+    <sheetColumns>P</sheetColumns>
+    <sheetColumns>Q</sheetColumns>
+    <sheetColumns>R</sheetColumns>
+    <sheetColumns>S</sheetColumns>
+    <sheetColumns>T</sheetColumns>
+    <sheetColumns>U</sheetColumns>
+    <sheetColumns>V</sheetColumns>
+    <sheetColumns>W</sheetColumns>
+    <sheetColumns>X</sheetColumns>
+    <sheetColumns>Y</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_RqF-It2NEe6Dq-kiClzcew" name="default" dataManager="_RqF-Id2NEe6Dq-kiClzcew">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_RqF-I92NEe6Dq-kiClzcew" id="_9ihL4N2MEe6Dq-kiClzcew" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RqF-JN2NEe6Dq-kiClzcew" label="OWNER_ID" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RqF-Jd2NEe6Dq-kiClzcew" label="CONTAINER_CODE" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RqF-Jt2NEe6Dq-kiClzcew" label="COMPARTMENT_NUMBER" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RqF-J92NEe6Dq-kiClzcew" label="CONTAINER_TYPE" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RqF-KN2NEe6Dq-kiClzcew" label="CAPACITY" length="5" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RqF-Kd2NEe6Dq-kiClzcew" label="RT_LOT_PRODUCT_GROUP_CODE" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RqF-Kt2NEe6Dq-kiClzcew" label="RT_LOT_SUPPLIER_NUMBER" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RqF-K92NEe6Dq-kiClzcew" label="RT_LOT_PRODUCT_NUMBER" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RqF-LN2NEe6Dq-kiClzcew" label="RT_LOT_OCTANE" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RqF-Ld2NEe6Dq-kiClzcew" label="LAST_MODIFIED" length="-1" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RqF-Lt2NEe6Dq-kiClzcew" label="RT_LOT_ORDER_ID" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RqF-L92NEe6Dq-kiClzcew" label="VALID_PRODUCT_GROUP_CODE" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RqF-MN2NEe6Dq-kiClzcew" label="TAG_ID" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RqF-Md2NEe6Dq-kiClzcew" label="TRACK_INVENTORY" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RqF-Mt2NEe6Dq-kiClzcew" label="TRANSLOADING_TANK_CODE" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RqF-M92NEe6Dq-kiClzcew" label="IMPORT_EXPORT_QUANTITY" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RqF-NN2NEe6Dq-kiClzcew" label="TERMINAL_PRODUCT_NUMBER" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RqF-Nd2NEe6Dq-kiClzcew" label="IMPORT_EXPORT_QUANTITY_TYPE" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RqF-Nt2NEe6Dq-kiClzcew" label="MANUAL_TEMPERATURE" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RqF-N92NEe6Dq-kiClzcew" label="MANUAL_DENSITY" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RqF-ON2NEe6Dq-kiClzcew" label="IMPORT_EXPORT_SUPPLIER_NUMBER" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RqF-Od2NEe6Dq-kiClzcew" label="MANUAL_COEFFICIENT_EXPANSION" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RqF-Ot2NEe6Dq-kiClzcew" label="MANUAL_PRESSURE" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RqF-O92NEe6Dq-kiClzcew" label="VISIT_NUMBER" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RqF-PN2NEe6Dq-kiClzcew" label="ETHANOL_EXPANSION" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

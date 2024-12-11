@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="_2Q3OEd2KEe6pKtho_MjfIg" name="BOOK_INVENTORY_HISTORY" dataPackage="_2Q3OEt2KEe6pKtho_MjfIg" Server="Localhost 127.0.0.1" FilePath="C:/Users/MYRIAM/Desktop/fichier_PI/BOOK_INVENTORY_HISTORY.xls" Encoding="UTF-8" UseHeader="true" HeaderValue="1" FirstLineCaption="true" SheetName="BOOK_INVENTORY_HISTORY" firstColumn="1" thousandSeparator="','" decimalSeparator="'.'" selectAllSheets="true" sheetList="BOOK_INVENTORY_HISTORY:w&#xA;">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+    <sheetColumns>C</sheetColumns>
+    <sheetColumns>D</sheetColumns>
+    <sheetColumns>E</sheetColumns>
+    <sheetColumns>F</sheetColumns>
+    <sheetColumns>G</sheetColumns>
+    <sheetColumns>H</sheetColumns>
+    <sheetColumns>I</sheetColumns>
+    <sheetColumns>J</sheetColumns>
+    <sheetColumns>K</sheetColumns>
+    <sheetColumns>L</sheetColumns>
+    <sheetColumns>M</sheetColumns>
+    <sheetColumns>N</sheetColumns>
+    <sheetColumns>O</sheetColumns>
+    <sheetColumns>P</sheetColumns>
+    <sheetColumns>Q</sheetColumns>
+    <sheetColumns>R</sheetColumns>
+    <sheetColumns>S</sheetColumns>
+    <sheetColumns>T</sheetColumns>
+    <sheetColumns>U</sheetColumns>
+    <sheetColumns>V</sheetColumns>
+    <sheetColumns>W</sheetColumns>
+    <sheetColumns>X</sheetColumns>
+    <sheetColumns>Y</sheetColumns>
+    <sheetColumns>Z</sheetColumns>
+    <sheetColumns>AA</sheetColumns>
+    <sheetColumns>AB</sheetColumns>
+    <sheetColumns>AC</sheetColumns>
+    <sheetColumns>AD</sheetColumns>
+    <sheetColumns>AE</sheetColumns>
+    <sheetColumns>AF</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_2Q3OEt2KEe6pKtho_MjfIg" name="default" dataManager="_2Q3OEd2KEe6pKtho_MjfIg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_2Q3OE92KEe6pKtho_MjfIg" id="_bmp1QN2KEe6pKtho_MjfIg" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2Q3OFN2KEe6pKtho_MjfIg" label="FOLIO_NUMBER" length="8" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2Q3OFd2KEe6pKtho_MjfIg" label="BOOK_INVENTORY_ID" length="3" talendType="id_Integer" key="true" nullable="false" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2Q3OFt2KEe6pKtho_MjfIg" label="SI_SUPPLIER_NUMBER" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2Q3OF92KEe6pKtho_MjfIg" label="SI_TERMINAL_PRODUCT_NUMBER" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2Q3OGN2KEe6pKtho_MjfIg" label="STI_SUPPLIER_NUMBER" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2Q3OGd2KEe6pKtho_MjfIg" label="STI_TANK_CODE" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2Q3OGt2KEe6pKtho_MjfIg" label="PI_SUPPLIER_NUMBER" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2Q3OG92KEe6pKtho_MjfIg" label="PI_PARCEL_CODE" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2Q3OHN2KEe6pKtho_MjfIg" label="PI_TANK_CODE" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2Q3OHd2KEe6pKtho_MjfIg" label="TI_TANK_CODE" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2Q3OHt2KEe6pKtho_MjfIg" label="INVENTORY_TYPE" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2Q3OH92KEe6pKtho_MjfIg" label="INVENTORY_QUANTITY_TYPE" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2Q3OIN2KEe6pKtho_MjfIg" label="OPENING_MTD_RECEIPTS" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2Q3OId2KEe6pKtho_MjfIg" label="CLOSING_MTD_RECEIPTS" length="7" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2Q3OIt2KEe6pKtho_MjfIg" label="OPENING_MTD_FRAC_RECEIPTS" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2Q3OI92KEe6pKtho_MjfIg" label="CLOSING_MTD_FRAC_RECEIPTS" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2Q3OJN2KEe6pKtho_MjfIg" label="OPENING_MTD_DISPOSALS" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2Q3OJd2KEe6pKtho_MjfIg" label="CLOSING_MTD_DISPOSALS" length="6" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2Q3OJt2KEe6pKtho_MjfIg" label="OPENING_MTD_FRAC_DISPOSALS" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2Q3OJ92KEe6pKtho_MjfIg" label="CLOSING_MTD_FRAC_DISPOSALS" length="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2Q3OKN2KEe6pKtho_MjfIg" label="FOLIO_RECEIPTS" length="6" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2Q3OKd2KEe6pKtho_MjfIg" label="FOLIO_FRAC_RECEIPTS" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2Q3OKt2KEe6pKtho_MjfIg" label="FOLIO_DISPOSALS" length="6" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2Q3OK92KEe6pKtho_MjfIg" label="FOLIO_FRAC_DISPOSALS" length="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2Q3OLN2KEe6pKtho_MjfIg" label="OPENING_INVENTORY" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2Q3OLd2KEe6pKtho_MjfIg" label="OPENING_FRAC_INVENTORY" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2Q3OLt2KEe6pKtho_MjfIg" label="CLOSING_INVENTORY" length="8" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2Q3OL92KEe6pKtho_MjfIg" label="CLOSING_FRAC_INVENTORY" length="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2Q3OMN2KEe6pKtho_MjfIg" label="OPENING_NEGATIVE_ALLOWANCE" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2Q3OMd2KEe6pKtho_MjfIg" label="CLOSING_NEGATIVE_ALLOWANCE" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2Q3OMt2KEe6pKtho_MjfIg" label="EOM_GAIN_LOSS" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2Q3OM92KEe6pKtho_MjfIg" label="EOM_FRAC_GAIN_LOSS" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_DkwU8d2qEe6Dq-kiClzcew" name="INJECTOR_HISTORY" dataPackage="_Dk6F8N2qEe6Dq-kiClzcew" Server="Localhost 127.0.0.1" FilePath="C:/Users/MYRIAM/Desktop/fichier_PI/INJECTOR_HISTORY.csv" Format="WINDOWS" Encoding="UTF-8" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_Dk6F8N2qEe6Dq-kiClzcew" name="default" dataManager="_DkwU8d2qEe6Dq-kiClzcew">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_Dk6F8d2qEe6Dq-kiClzcew" id="_4d0cwN2pEe6Dq-kiClzcew" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Dk6F8t2qEe6Dq-kiClzcew" label="METER_PRESET_CODE" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Dk6F892qEe6Dq-kiClzcew" label="PRESET_CODE" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Dk6F9N2qEe6Dq-kiClzcew" label="INJECTOR_CODE" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Dk6F9d2qEe6Dq-kiClzcew" label="FOLIO_NUMBER" length="8" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Dk6F9t2qEe6Dq-kiClzcew" label="TOTALIZER" length="5" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Dk6F992qEe6Dq-kiClzcew" label="TERMINAL_PRODUCT_NUMBER" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Dk6F-N2qEe6Dq-kiClzcew" label="METER_CODE" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Dk6F-d2qEe6Dq-kiClzcew" label="THRUPUT" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Dk6F-t2qEe6Dq-kiClzcew" label="UNACCOUNTED" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Dk6F-92qEe6Dq-kiClzcew" label="PRODUCT_THRUPUT" length="6" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Dk6F_N2qEe6Dq-kiClzcew" label="CERTIFICATION_RATE" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Dk6F_d2qEe6Dq-kiClzcew" label="FRAC_TOTALIZER" length="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Dk6F_t2qEe6Dq-kiClzcew" label="FRAC_THRUPUT" length="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Dk6F_92qEe6Dq-kiClzcew" label="FRAC_UNACCOUNTED" length="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Dk6GAN2qEe6Dq-kiClzcew" label="BOD_TOTALIZER" length="5" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Dk6GAd2qEe6Dq-kiClzcew" label="BOD_FRAC_TOTALIZER" length="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Dk6GAt2qEe6Dq-kiClzcew" label="ACTUAL_THRUPUT" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Dk6GA92qEe6Dq-kiClzcew" label="ACTUAL_FRAC_THRUPUT" length="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Dk6GBN2qEe6Dq-kiClzcew" label="LOADING_QUANTITY_TYPE" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
